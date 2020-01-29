@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="tgs.css">
+
+    <title>Latihan Bootstrap</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="jumbotron jumbotron-fluid">
+                    <nav class="nav justify-content-center">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">
+                                <p> <b> Home </b> </p>
+                            </a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">
+                                <p> <b> Fakultas </b> </p>
+                            </a>
+                        </div>
+                    </nav>
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <p> <b>Universitas Harvard adalah salah satu universitas paling bergengsi di dunia dan
+                                    mempunyai
+                                    pendapatan terbesar di antara universitas-universitas di seluruh dunia (US$22,6
+                                    miliar
+                                    pada tahun 2004), hampir dua kali lipat dariUniversitas Yale, pesaing terdekatnya).
+
+                                    Rangking universitas Amerika Serikat keluaran US News tahun 2005 menempatkan
+                                    Universitas
+                                    Harvard dan Universitas Princeton bersama-sama di urutan pertama.[8] Universitas
+                                    Harvard
+                                    juga meraih urutan pertama pada tahun 2004, setelah lima tahun di posisi kedua dan
+                                    ketiga. Times Higher Education Supplement World University Rankings juga menempatkan
+                                    Universitas Harvard di urutan pertama.
+                                    Universitas ini didirikan pada 8 September 1636 dan merupakan perguruan tinggi
+                                    tertua di
+                                    Amerika Serikat. Awalnya bernama New College, dan dinamakan ulang menjadi Harvard
+                                    College pada 13 Maret 1639 untuk menghormati penyumbang terbesarnya, John Harvard,
+                                    seorang mantan mahasiswa Universitas Cambridge.
+
+                                    Rujukan terawal yang memanggil Harvard sebagai "universitas" dan bukan "college"
+                                    terjadi
+                                    pada tahun 1780.</b>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <p><b>Universitas Harvard kini mempunyai 9 fakultas, diurutkan di bawah ini menurut masa
+                                    didirikan:</b></p>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">
+                                    <p><b> Harvard Faculty of Arts</b></p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p><b> Fakultas Kedokteran, (1867)</b></p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p><b> Harvard Divinity School (1816)</b></p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p><b> Harvard Law School (1817)</b></p>
+                                </li>
+                                <li class="list-group-item">
+                                    <p><b> Harvard Business School (1908)</b></p>
+                                </li>
+                            </ul> <br>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal"
+                        data-whatever="login">Kuy daftar
+                    </button>
+
+                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Form Pendaftaran</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <form>
+                                        <div class="form-group">
+                                            <label for="nama" class="col-form-label">Nama Lengkap:</label>
+                                            <input type="text" class="form-control" id="nama">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="tempat" class="col-form-label">Tempat, Tgl Lahir:</label>
+                                            <input type="text" class="form-control" id="tempat">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="Fakultas" class="col-form-label">Fakultas:</label>
+                                            <input type="text" class="form-control" id="fakultas">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="jurusan" class="col-form-label">Jurusan:</label>
+                                            <input type="text" class="form-control" id="jurusan">
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="message-text" class="col-form-label">Alasan Daftar:</label>
+                                            <textarea class="form-control" id="message-text"></textarea>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Batal</button>
+                                    <button type="button" class="btn btn-primary">Daftar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script type="text/JavaScript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/JavaScript" src="js/popper.min.js"></script>
+    <script type="text/JavaScript" src="js/bootstrap.min.js"></script>
+</body>
+
+</html>

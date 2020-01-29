@@ -1,0 +1,29 @@
+.container-fluid .jumbotron-fluid {
+    background-image: url(img/univeristy.jpg);
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(44, 35, 31);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+
+}
+
+#nav-tab p {
+    color: black;
+    font-size: 20px;
+
+}
+
+#nav-tabContent {
+    color: whitesmoke;
+    text-align: justify;
+    font-size: 20px;
+}
+
+#nav-profile ul li p {
+    color: black;
+    width: auto;
+
+}
